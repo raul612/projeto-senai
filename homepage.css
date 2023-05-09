@@ -1,0 +1,99 @@
+/*inserindo a fonte*/ 
+body{
+  font-family:'Battambang', sans-serif;
+  margin: 0;
+}
+
+/*configurando o cabeçalho*/
+.topnav {
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #5b5b5b;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  /* mundando a cor do botao qnd passa o mouse em cima */
+  .botaoAgendamento a:hover {
+    background-color: #9cffd3;
+    color: black;
+  }
+  .botaoGuia a:hover {
+    background-color: #9cffd3;
+    color: black;
+  }
+  .botaoInicio a:hover {
+    background-color: #9cffd3;
+    color: black;
+  }
+  .botaoPlanos a:hover {
+    background-color: #9cffd3;
+    color: black;
+  }
+ 
+  /*configurando e alinhando a logo + botoes*/
+.logo img{
+  height: auto;
+  width: 250px;
+  padding-left: 20px;
+}
+
+.botaoInicio{
+  margin-top: 28px;
+  left: 10px;
+
+}
+.botaoPlanos{
+  margin-top: 28px;
+  left: 10px;
+
+}
+.botaoAgendamento{
+  margin-top: 28px;
+  left: 10px;
+
+}
+.botaoGuia{
+  margin-top: 28px;
+  left: 10px;
+
+}
+.botaoLogin{
+  left: 10px;
+}
+.botaoLogin img{
+  width: 150px;
+  height: auto;
+}
+
+/*configurando barrinha do rodapé e img principal*/
+.barrinha img{
+  width: 100%;
+  box-shadow: 0px 5px 3px rgb(144, 144, 144);
+}
+.img img{
+  padding: 15px 20px;
+  width: 50%;
+  height: auto;
+}
+
+/*rodapé azul*/
+footer {
+  position: absolute; 
+  bottom: 0px; 
+  width: 100%; 
+  height: 60px; 
+  background-color: #1c2541;
+}
+.redes{
+  float: right;
+}
+.redes img{
+  width: auto;
+  height: 40px;
+  padding: 5px 5px;
+}
