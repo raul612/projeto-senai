@@ -99,3 +99,7 @@ body{
     color: gray;
     font-weight: bold;
 }
+
+.login #entrar{
+    margin-top: 59px;
+}
