@@ -1,7 +1,44 @@
-#cliente{
-    background-image: linear-gradient(white, #c6ffdf);
+body{
+    font-family:'Battambang', sans-serif;
 }
-
-#colab{
-    background-image: linear-gradient(white, #4b88a2);
+/*configurando caixa do login*/
+.login{
+    margin-left: 40%;
+    margin-top: 100px; 
+    padding: 30px;
+    width: 200px;
+    background-image: linear-gradient(#d8ffe9, #77e3a6);
+    border-radius: 0.8rem;
+    height: 440px;
+}
+.login input{
+    width: 195px;
+}
+.login img{
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+/*config botoes*/
+#clientel{
+    background-color:#ffffff;
+    padding: 10px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 0.8rem;
+    border-color: rgb(214, 214, 214);
+    text-align: center;
+    font-size: medium;
+}
+#esqueci{
+    font-size: small;
+}
+#entrar{
+    background-color:#ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+    width: 125px;
+    float: right;
+    border-radius: 0.8rem;
 }
