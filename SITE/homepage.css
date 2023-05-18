@@ -41,27 +41,6 @@ body{
   width: 250px;
   padding-left: 20px;
 }
-
-.botaoInicio{
-  margin-top: 28px;
-  left: 10px;
-
-}
-.botaoPlanos{
-  margin-top: 28px;
-  left: 10px;
-
-}
-.botaoAgendamento{
-  margin-top: 28px;
-  left: 10px;
-
-}
-.botaoGuia{
-  margin-top: 28px;
-  left: 10px;
-
-}
 .botaoLogin{
   float: right;
   left: 10px;
@@ -70,16 +49,32 @@ body{
   width: 150px;
   height: auto;
 }
-
-/*configurando barrinha do rodapé e img principal*/
+#botao{
+  margin-top: 28px;
+}
+/*configurando barrinha do cabeçalho e img principal*/
 .barrinha img{
   width: 100%;
   box-shadow: 0px 5px 3px rgb(144, 144, 144);
 }
 .img img{
   padding: 15px 20px;
-  width: 54%;
-  height: auto;
+  width: auto;
+  height: 467px;
+}
+
+.conteudo{
+  display : flex;
+  flex-direction : row;
+}
+.content{
+  margin-top: 16px;
+  display : flex;
+  flex-direction : column;
+}
+.content img{
+  width: auto;
+  height: 230px;
 }
 
 /*rodapé azul*/
