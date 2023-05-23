@@ -82,24 +82,47 @@ body{
     float: right;
     border-radius: 0.8rem;
 }
-#cadastro{
+.cadastro{
+    display : flex;
+    flex-direction : row;
+    margin-left: 33%;
+}
+#cadastrocliente{
     text-align: center;
     background-color:#ffffff;
     padding: 10px;
     border-radius: 0.8rem;
-    box-shadow: 0px 5px 3px rgb(144, 144, 144);
+    box-shadow: 0px 5px 3px #018e3e;
     text-align: center;
     font-size: medium;
     margin-top: 10px;
-    margin-left: 33%;
-    width: 510px;
+    width: 240px;
 }
-#cadastro a{
+#cadastrocliente a{
     text-decoration: none;
-    color: gray;
+    color: #018e3e;
     font-weight: bold;
 }
-
+#cadastrocolab{
+    text-align: center;
+    background-color:#ffffff;
+    padding: 10px;
+    border-radius: 0.8rem;
+    box-shadow: 0px 5px 3px #4b88a2;
+    text-align: center;
+    font-size: medium;
+    margin-top: 10px;
+    width: 240px;
+    margin-left: 10px;
+}
+#cadastrocolab a{
+    text-decoration: none;
+    color: #4b88a2;
+    font-weight: bold;
+}
 .login #entrar{
     margin-top: 59px;
+}
+#entrar a{
+    text-decoration: none;
 }
