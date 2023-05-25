@@ -22,6 +22,7 @@ body{
 /* mundando a cor do botao qnd passa o mouse em cima */
 #botao {
   transition: transform .2s;
+  margin-top: 25px;
 }
 #botao a:hover {
   transform: scale(1.01);
@@ -36,15 +37,13 @@ body{
   padding-left: 20px;
 }
 
-.botaoLogin img{
-  width: 195px;
+.botaoPerfil img{
+  width: 60px;
   height: auto;
-  margin-left: 400px;
-  margin-top: 10px;
+  margin-left: 420px;
+  margin-top: 15px;
 }
-#botao{
-  margin-top: 25px;
-}
+
 /*configurando barrinha do cabeçalho e img principal*/
 .barrinha img{
   width: 100%;
