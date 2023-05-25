@@ -18,23 +18,11 @@ body{
   }
   
   /* mundando a cor do botao qnd passa o mouse em cima */
-  .botaoAgendamento a:hover {
+  #botao a:hover {
     background-color: #9cffd3;
     color: black;
   }
-  .botaoGuia a:hover {
-    background-color: #9cffd3;
-    color: black;
-  }
-  .botaoInicio a:hover {
-    background-color: #9cffd3;
-    color: black;
-  }
-  .botaoPlanos a:hover {
-    background-color: #9cffd3;
-    color: black;
-  }
- 
+
   /*configurando e alinhando a logo + botoes*/
 .logo img{
   height: auto;

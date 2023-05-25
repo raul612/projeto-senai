@@ -25,14 +25,23 @@ body{
 }
 
 input{
-    border-radius: 1rem;
+    border-radius: 0.8rem;
     border-style: none;
     font-size: 18px;
     height: 40px;
     margin: 5px;
+    color: gray;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
 }
 select{
-    border-radius: 1rem;
+    border-radius: 0.8rem;
     border-style: none;
     font-size: 18px;
     height: 40px;

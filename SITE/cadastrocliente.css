@@ -25,26 +25,38 @@ body{
 }
 
 input{
-    border-radius: 1rem;
-    border-style: none;
-    font-size: 18px;
-    height: 40px;
-    margin: 5px;
-}
-select{
-    border-radius: 1rem;
+    border-radius: 0.8rem;
     border-style: none;
     font-size: 18px;
     height: 40px;
     margin: 5px;
     color: gray;
 }
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+select{
+    border-radius: 0.8rem;
+    border-style: none;
+    font-size: 18px;
+    height: 40px;
+    margin: 5px;
+    color: gray;
+}
+
 #inputfull{
-    width: 470px;
+    width: 468px;
 }
 #inputhalf{
     width: 226px;
 }
+
 #concluir{
     margin-top: 25px;
     margin-left: 180px;

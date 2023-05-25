@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +14,9 @@
         <h1>Cadastro</h1>
         <input type="text" name="nome" placeholder="Nome completo" id="inputfull">
         <input type="number" name="cpf" placeholder="CPF" id="inputhalf">
-        <input placeholder="Data de nascimento" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="inputhalf"/>
+        <input placeholder="Data de nascimento" type="text" onfocus="(this.type='date')" onblur="(this.type='date')" id="inputhalf"/>
         <input type="number" name="rg" placeholder="RG" id="inputhalf">
-        <input placeholder="Data de emissão" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="inputhalf"/>
+        <input placeholder="Data de emissão" type="text" onfocus="(this.type='date')" onblur="(this.type='date')" id="inputhalf"/>
         <input type="number" name="carteirinha" placeholder="Nº da carteirinha" id="inputfull">
         <input type="email" name="email" placeholder="E-mail" id="inputfull">
         <select id="inputhalf" name="etnia">
@@ -29,6 +29,7 @@
           </select>
           <select id="inputhalf" name="deficiencia">
             <option value="" disabled selected hidden>Deficiência</option>
+            <option value="nenhuma">Nenhuma</option>
             <option value="visual">Deficiente visual</option>
             <option value="auditivo">Deficiente auditivo</option>
             <option value="intelectual">Deficiente intelectual</option>
