@@ -1,0 +1,134 @@
+/*inserindo a fonte*/ 
+body{
+  font-family:'Battambang', sans-serif;
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+/*configurando o cabeçalho*/
+.topnav {
+  margin-top: 10px;
+    overflow: hidden;
+    display : flex;
+    flex-direction : row;
+  }
+.topnav a {
+  color: #5b5b5b;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 22px;
+}
+#botao {
+  transition: transform .2s;
+  margin-top: 25px;
+}
+#botao a:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 5px 3px #9cffd3;
+  color: black;
+}
+.logo img{
+  height: auto;
+  width: 250px;
+  padding-left: 20px;
+}
+
+.botaoPerfil img{
+  width: 60px;
+  height: auto;
+  margin-left: 570px;
+  margin-top: 15px;
+}
+.barrinha img{
+  width: 100%;
+  box-shadow: 0px 5px 3px rgb(144, 144, 144);
+}
+
+/*conteudo principal*/
+.container{
+  background-color: #D9D9D9;
+  width: 97%;
+  height: 515px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.header{
+  width: 100%;
+  height: 55px;
+  background-color: #1c2541;
+
+}
+.header a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin: 20px;
+}
+input{
+  border-radius: 0.8rem;
+  border-style: none;
+  font-size: 18px;
+  height: 60px;
+  margin: 5px;
+  color: gray;
+}
+input:focus{
+  outline-color:#77e3a6;
+}
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
+select{
+  border-radius: 0.8rem;
+  border-style: none;
+  font-size: 18px;
+  height: 60px;
+  margin: 5px;
+  color: gray;
+}
+
+#inputfull{
+  width: 480px;
+}
+#inputhalf{
+  width: 230px;
+}
+#botaoagendar{
+  margin-top: 40px;
+  border: 5px #1c2541 solid;
+  border-radius: 0.8rem;
+  font-size: 20px;
+  width: 200px;
+  background-color: white;
+  margin-left: 635px;
+}
+#botaoagendar a{
+  text-decoration: none;
+  color: #1c2541;
+  font-weight: bold;
+}
+/*rodapé azul*/
+footer {
+  position: fixed; 
+  bottom: 0px; 
+  width: 100%; 
+  height: 60px; 
+  background-color: #1c2541;
+}
+.redes{
+  float: right;
+}
+.redes img{
+  width: auto;
+  height: 40px;
+  padding: 5px 5px;
+}

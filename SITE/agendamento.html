@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP Medical Group - Pagina inicial</title>
+    <link rel="shortcut icon" href="media/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="agendamento.css">
+    <link href="https://fonts.googleapis.com/css?family=Battambang:100,300,regular,700,900" rel="stylesheet" />
+    <div>
+        <div class="topnav">
+            <div class="logo">
+             <a href="homepageadm.html"><img src="media/SP logo.png" alt="logo"></a>
+            </div>
+            <div id="botao">
+                <a href="homepageadm.html">Início</a>
+            </div>
+            <div id="botao">
+                <a href="">Cadastros</a>
+            </div>
+            <div id="botao">
+             <a href="">Agendamento</a>
+            </div>
+            <div class="botaoPerfil">
+                <a href=""><img src="media/ftcolab.png" alt="perfil"></a>
+            </div>
+        </div>
+    </div>
+      <div class="barrinha">
+        <img src="media/barrinha.png" alt="">
+    </div>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="agendamento.html">Agendar</a>
+            <a href="">Consultas requisitadas</a>
+        </div>
+        <div style="margin-top: 50px;">
+            <input type="text" placeholder="Nome do paciente" id="inputfull">
+            <div>
+                <input placeholder="Data" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='date')" id="inputhalf"/>
+                <input placeholder="Horário" class="textbox-n" type="text" onfocus="(this.type='time')" onblur="(this.type='text')" id="inputhalf"/>
+            </div>
+            <div>
+                <select name="especialidade" id="inputhalf">
+                    <option value="" disabled selected hidden>Especialidade</option>
+                    <option value="">Clinica geral</option>
+                    <option value="">Cardiologia</option>
+                    <option value="">Endocrinologia</option>
+                    <option value="">Ortopedia</option>
+                    <option value="">Dermatologia</option>
+                    <option value="">Geriatria</option>
+                </select>
+                <select name="doutor" id="inputhalf">
+                    <option value="">Dra. Sarah Pinheiro</option>
+                    <option value="">Dra. Manuella Gomes</option>
+                    <option value="">Dr. Raul Corrêa</option>
+                    <option value="">Dr. João Donazan</option>
+                    <option value="">Dra. Gabriela Abacherli</option>
+                    <option value="">Dra. Bianca Domingues</option>
+                    <option value="" disabled selected hidden>Doutor(a)</option>
+                </select>
+            </div>
+            <div id="botaoagendar">
+                <a href="">
+                    <p>AGENDAR</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="redes">
+        <a href="https://www.facebook.com/JYPETWICE/?locale=pt_BR" target="_blank" rel="external"><img src="media/fb.png" alt=""></a>
+        <a href="https://www.instagram.com/twicetagram/" target="_blank" rel="external"><img src="media/insta.png" alt=""></a>
+        <a href="https://www.linkedin.com/company/twice-ensino-bilingue/?originalSubdomain=br" target="_blank" rel="external"><img src="media/linked.png" alt=""></a>
+        <a href="https://web.whatsapp.com/%F0%9F%8C%90/pt-br" target="_blank" rel="external"><img src="media/zap.png" alt=""></a>
+    </div>
+</footer>
