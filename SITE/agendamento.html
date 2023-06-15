@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="agendamento.css">
     <link href="https://fonts.googleapis.com/css?family=Battambang:100,300,regular,700,900" rel="stylesheet" />
     <div>
-        <div class="topnav">
+        <div class="topnav" >
             <div class="logo">
              <a href="homepageadm.html"><img src="media/SP logo.png" alt="logo"></a>
             </div>
@@ -31,12 +31,12 @@
     </div>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="blur">
         <div class="header">
-            <a href="agendamento.html">Agendar</a>
+            <a href="agendamento.html" style="font-weight: bold;">Agendar</a>
             <a href="">Consultas requisitadas</a>
         </div>
-        <div style="margin-top: 50px;">
+        <div style="margin-top: 70px;">
             <input type="text" placeholder="Nome do paciente" id="inputfull">
             <div>
                 <input placeholder="Data" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='date')" id="inputhalf"/>
@@ -62,13 +62,25 @@
                     <option value="" disabled selected hidden>Doutor(a)</option>
                 </select>
             </div>
-            <div id="botaoagendar">
-                <a href="">
-                    <p>AGENDAR</p>
-                </a>
-            </div>
+            <button id="botaoagendar" onclick="openPopup(); toggle()">Confirmar</button>
         </div>
     </div>
+    <div id="popup" class="popup">
+        <h1>Agendamento concluido</h1>
+        <button onclick="closePopup(); toggle()" id="agendardnv">Agendar outra consulta</button>
+    </div>
+    <script>
+        function openPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+        function closePopup () {
+            document.getElementById("popup").style.display = "none";
+        }
+        function toggle() {
+            var blur = document.getElementById("blur")
+            blur.classList.toggle('active')
+        }
+    </script>
 </body>
 <footer>
     <div class="redes">
