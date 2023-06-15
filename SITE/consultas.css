@@ -37,7 +37,7 @@ body{
   .botaoPerfil img{
     width: 60px;
     height: auto;
-    margin-left: 570px;
+    margin-left: 420px;
     margin-top: 15px;
   }
   .barrinha img{
@@ -74,8 +74,7 @@ body{
     transition: transform .2s;
 }
 #botao2 a:hover {
-        transform: scale(2.01);
-        color: rgb(54, 53, 53);
+    font-weight: bold;
 }
 .navbar a {
     display: inline;
