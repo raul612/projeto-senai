@@ -71,22 +71,34 @@
                 <p>Datas disponíveis</p>
             </div>
             <div id="edicao">
-                <span class="data1" id="data1">
+                <span class="data1" id="data1" onclick="mudarCor(this)">
                     <a href="#">15</a>
-                    <b class="abril" href="#">Abril</b>
+                    <b href="abril" href="#">Abril</b>
                 </span>
-                <span class="data1" id="data2">
+                <span class="data1" id="data2"onclick="mudarCor(this)" >
                     <a href="#">18</a>
-                    <b class="abril" href="#">Abril</b>
+                    <b href="abril" href="#">Abril</b>
                 </span>
-                <span class="data1" id="data3">
+                <span class="data1" id="data3" onclick="mudarCor(this)">
                     <a href="#">20</a>
-                    <b class="abril" href="#">Abril</b>
+                    <b href="abril" href="#">Abril</b>
                 </span>
             </div>
-            <input class="azul2" type="button" value="Mostrar mais">
+            <button class="azul2">Mostrar mais</button>
         </div>
     </div>
+    <script>
+        var elementos = document.getElementsByClassName('data1')
+        function mudarCor(elementoClicado){
+            for(var i = 0; i < elementos.length; i++) {
+                elementos[i].style.borderColor = '';
+            }
+            elementoClicado.style.borderColor = '#5BA5C5'
+        }
+        
+
+        
+    </script>
 </body>
 <footer>
 </footer>

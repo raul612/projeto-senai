@@ -111,108 +111,84 @@ body{
     padding-top: 4px;
     border-radius: 20px;
 }
+#edicao{
+    display : flex;
+    flex-direction :row;
+    margin-left: 510px;
+}
 #data1 {
-    padding-top: 35px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-right: 20px;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 4px solid #018E3E;
     border-radius: 40px;
-    line-height: 125px;
     cursor: pointer;
+    display : flex;
+    flex-direction :column;
+    width: 110px;
+    height: 110px;
+    margin-right: 10px;
 }
 #data1 a {
-    position: absolute;
-    top: 470px;
     text-decoration: none;
     color:#000000;
     font-size: 40px;
-    left: 604px;
-    line-height: 0px;
-    top: 560px;
 }
 #data1 b {
     text-decoration: none;
     color: #000000;
     font-size: 15px;
-    left: 604px;
     cursor: pointer;
-    line-height: 0px;
-    top: 590px;
 }
 #data2 {
-    padding-top: 35px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-right: 20px;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 4px solid #018E3E;
     border-radius: 40px;
-    line-height: 125px;
     cursor: pointer;
+    display : flex;
+    flex-direction :column;
+    width: 110px;
+    height: 110px;
+    margin-right: 10px;
 }
 #data2 a {
-    position: absolute;
-    top: 470px;
     text-decoration: none;
     color:#000000;
     font-size: 40px;
-    left: 732px;
     cursor: pointer;
-    line-height: 0px;
-    top: 560px;
 }
 #data2 b {
-    position: absolute;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
-    left: 733px;
     cursor: pointer;
-    line-height: 0px;
-    top: 590px;
 }
 #data3 {
-    padding-top: 35px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-right: 20px;
+    width: 110px;
+    height: 110px;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 4px solid #018E3E;
     border-radius: 40px;
-    line-height: 125px;
     cursor: pointer;
+    display : flex;
+    flex-direction :column;
+    margin-right: 10px;
 }
 #data3 a {
-    position: absolute;
-    top: 470px;
     text-decoration: none;
     color:#000000;
     font-size: 40px;
-    left: 858px;
-    line-height: 0px;
-    top: 560px;
 }
 #data3 b {
-    position: absolute;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
-    left: 862px;
-    line-height: 0px;
-    top: 590px;
 }
 .azul2 {
     width: 10%;
     height: 35px;
-    margin-top: -20px;
+    margin-top: 10px;
     margin-right: 16px;
     border-radius: 25px;
     background-color: #5BA5C5;
