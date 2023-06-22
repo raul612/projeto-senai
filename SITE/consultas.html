@@ -71,34 +71,67 @@
                 <p>Datas disponíveis</p>
             </div>
             <div id="edicao">
-                <span class="data1" id="data1" onclick="mudarCor(this)">
+                <span class="data1" id="data1" onclick="mudarCor(this); openPopup(this);">
                     <a href="#">15</a>
                     <b href="abril" href="#">Abril</b>
                 </span>
-                <span class="data1" id="data2"onclick="mudarCor(this)" >
+                <span class="data1" id="data2" onclick="mudarCor(this); openPopup(this);">
                     <a href="#">18</a>
                     <b href="abril" href="#">Abril</b>
                 </span>
-                <span class="data1" id="data3" onclick="mudarCor(this)">
+                <span class="data1" id="data3" onclick="mudarCor(this); openPopup(this);">
                     <a href="#">20</a>
                     <b href="abril" href="#">Abril</b>
                 </span>
             </div>
+            <div id="popup1" class="popup">
+                <h1>Agendar 15/04/2023?</h1>
+                <button onclick="closePopup('popup1')" id="botaopopupA">Voltar</button>
+                <a href="dia_selecionado.html"><button id="botaopopupB">Sim, prosseguir</button></a>
+            </div>
+            <div id="popup2" class="popup">
+                <h1>Agendar 18/04/2023?</h1>
+                <button onclick="closePopup('popup2')" id="botaopopupA">Voltar</button>
+                <a href="dia_selecionado.html"><button id="botaopopupB">Sim, prosseguir</button></a>
+            </div>
+            <div id="popup3" class="popup">
+                <h1>Agendar 20/04/2023?</h1>
+                <button onclick="closePopup('popup3')" id="botaopopupA">Voltar</button>
+                <a href="dia_selecionado.html"><button id="botaopopupB">Sim, prosseguir</button></a>
+            </div>            
             <button class="azul2">Mostrar mais</button>
-        </div>
+            <script>
+                var elementos = document.getElementsByClassName('data1');
+            
+                function mudarCor(elementoClicado) {
+                    for (var i = 0; i < elementos.length; i++) {
+                        elementos[i].style.borderColor = '';
+                    }
+                    elementoClicado.style.borderColor = '#5BA5C5';
+                }
+            
+                function openPopup(elementoClicado) {
+                    var id = elementoClicado.id;
+                    switch (id) {
+                        case 'data1':
+                            document.getElementById("popup1").style.display = "block";
+                            break;
+                        case 'data2':
+                            document.getElementById("popup2").style.display = "block";
+                            break;
+                        case 'data3':
+                            document.getElementById("popup3").style.display = "block";
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            
+                function closePopup(popupId) {
+                    document.getElementById(popupId).style.display = "none";
+                }
+            </script>
     </div>
-    <script>
-        var elementos = document.getElementsByClassName('data1')
-        function mudarCor(elementoClicado){
-            for(var i = 0; i < elementos.length; i++) {
-                elementos[i].style.borderColor = '';
-            }
-            elementoClicado.style.borderColor = '#5BA5C5'
-        }
-        
-
-        
-    </script>
 </body>
 <footer>
 </footer>

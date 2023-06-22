@@ -1,0 +1,171 @@
+/*inserindo a fonte*/ 
+body{
+    font-family:'Battambang', sans-serif;
+    margin: 0;
+    padding-bottom: 60px;
+  }
+  
+  /*configurando o cabeçalho*/
+  .topnav {
+    margin-top: 10px;
+      overflow: hidden;
+      display : flex;
+      flex-direction : row;
+    }
+  .topnav a {
+    color: #5b5b5b;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  #botao {
+    transition: transform .2s;
+    margin-top: 25px;
+  }
+  #botao a:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 5px 3px #9cffd3;
+    color: black;
+  }
+  .logo img{
+    height: auto;
+    width: 250px;
+    padding-left: 20px;
+  }
+  
+  .botaoPerfil img{
+    width: 60px;
+    height: auto;
+    margin-left: 420px;
+    margin-top: 15px;
+  }
+  .barrinha img{
+    width: 100%;
+    box-shadow: 0px 5px 3px rgb(144, 144, 144);
+  }
+
+/*configurando o conteúdo*/
+.container {
+  background-color: #D9D9D9;
+  width: 90%;
+  height: 530px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+
+}
+.navbar {
+    /*margin-bottom: 350px;*/
+    background-color: #018E3E;
+    padding: 10px;
+    box-shadow: 0px 3px 3px rgb(144, 144, 144);
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+#botao2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+}
+#botao2 {
+    padding: 30px;
+    transition: transform .2s;
+}
+#botao2 a:hover {
+    font-weight: bold;
+}
+.navbar a {
+    display: inline;
+    margin-right: 10px;
+}
+/* Você selecionou o dia: */
+#dia {
+    position: absolute;
+    width: 360px;
+    left: 570px;
+    font-family:'Battambang', sans-serif;
+    font-weight: 500px;
+    font-size: 20px;   
+    color: rgba(0, 0, 0, 0.45);
+}
+#dia2 {
+    position: absolute;
+    width: 360px;
+    left: 580px;
+    top: 420px;
+    font-family:'Battambang', sans-serif;
+    font-weight: 500px;
+    font-size: 15px;   
+    color: rgba(0, 0, 0, 0.55);
+}
+/* fundo branco da box*/
+#box_data {
+    box-sizing: border-box;
+    position: absolute;
+    width: 125px;
+    height: 100px;
+    left: 690px;
+    top: 278px;
+    background: #FFFFFF;
+    border: 5px solid #018E3E;
+    border-radius: 36px;
+}
+/* número da box */
+#num {
+    margin-top: -10px;
+    left: 35px;
+    position: absolute;
+    font-family:'Battambang', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: #000000;
+}
+/* mês da box */
+#mes {
+    margin-top: 48px;
+    left: 30px;
+    position: absolute;
+    font-family:'Battambang', sans-serif;
+    font-weight: 410;
+    font-size: 22px;
+    color: #000000;
+}
+.azul {
+    position: absolute;
+    left: 600px;
+    top: 390px;
+    width: 20%;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #5BA5C5;
+    color: #00000055;
+    font-size: 22px;
+    font-family:'Battambang', sans-serif;
+    border-style: none;
+}
+#verde {
+    position: absolute;
+    left: 600px;
+    top: 450px;
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #5DC55B;
+    color: #000000;
+    font-size: 22px;
+    font-family:'Battambang', sans-serif;
+    text-align: center;
+}
+/*finalização ---------------------------------------------------------------------- */
+
+/*rodapé azul + redes sociais*/
+footer {
+    position: fixed; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 40px; 
+    background-color: #1c2541;
+  }
